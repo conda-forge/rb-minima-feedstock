@@ -1,5 +1,5 @@
 {% set name = "minima" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 520e52bc631fb16cbb8100660f6caa44f97859e2fa7e397d508deb18739567be
+  sha256: 9c434e3b7bc4a0f0ab488910438ed3757a0502ff1060d172f361907fc38aa45a
 
 build:
   noarch: generic
